@@ -11,7 +11,7 @@ Completed:
 * [] Required: The destination server is configurable via the `--host`, `--port`  or `--url` arguments
 * [] Required: The destination server is configurable via the `x-destination-url` header
 * [] Required: Client requests and respones are printed to stdout
-* [] Not Working: The `--logfile` argument outputs all logs to the file specified instead of stdout
+* [] Required: The `--logfile` argument outputs all logs to the file specified instead of stdout
 * [] Optional: The `--exec` argument proxies stdin/stdout to/from the destination program
 * [] Optional: The `--loglevel` argument sets the logging chattiness
 * [] Optional: Supports HTTPS
@@ -114,7 +114,7 @@ A single url that overrides the above. E.g., `http://www.google.com`
 
 ##### `--logfile`
 
-Specify a file path to redirect logging to. - This is not complete.
+Specify a file path to redirect logging to.
 
 #### Headers
 
